@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\TemplateEditor.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\TemplateEditor.exe
+E:\wuxia\program\trunk\Server\Release\Bin\TemplateEditor.pdb
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.Form1.resources
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.exe
+E:\wuxia\program\trunk\Server\Code\Tools\TemplateEditor\obj\Debug\TemplateEditor.pdb

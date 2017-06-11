@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\ComServer.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\ComServer.exe
+E:\wuxia\program\trunk\Server\Release\Bin\ComServer.pdb
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.ComServerFrm.resources
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.exe
+E:\wuxia\program\trunk\Server\Code\Server\ComServer\obj\Debug\ComServer.pdb

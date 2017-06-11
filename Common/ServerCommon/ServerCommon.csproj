@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E62C733E-C8F4-4B5E-9827-6165F27462FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServerCommon</RootNamespace>
+    <AssemblyName>ServerCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Release\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CSharpCompliler</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\SBin\</OutputPath>
+    <DefineConstants>TRACE;CSharpCompliler</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugEx|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Release\SBin\</OutputPath>
+    <DefineConstants>TRACE;CSharpCompliler</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Release\Bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autocode\ClientCaller.cs" />
+    <Compile Include="Data\CampForceData.cs" />
+    <Compile Include="Data\CountryWar\CountryWarDb.cs" />
+    <Compile Include="Data\CountryWar\CountryWarMgr.cs" />
+    <Compile Include="Data\CountryWar\CountryWarPro.cs" />
+    <Compile Include="Data\EfficiencyData.cs" />
+    <Compile Include="Data\CityForceData.cs" />
+    <Compile Include="Com\RoleManager\Role_Rank.cs" />
+    <Compile Include="Com\RoleManager\Role_Team.cs" />
+    <Compile Include="Com\WorldManager.cs" />
+    <Compile Include="Data\Com\RankData.cs" />
+    <Compile Include="Data\Com\CityData.cs" />
+    <Compile Include="Data\DbConfig\DbConfig.cs" />
+    <Compile Include="Data\DbConfig\PlanesConfig.cs" />
+    <Compile Include="Data\GameAttribute.cs" />
+    <Compile Include="Data\Item\ConsignGridData.cs" />
+    <Compile Include="Data\MartialData.cs" />
+    <Compile Include="Data\Player\AchieveData.cs" />
+    <Compile Include="Data\Player\RoleValue.cs" />
+    <Compile Include="Com\RoleManager\Role_Mail.cs" />
+    <Compile Include="Data\SkillData.cs" />
+    <Compile Include="Editor\CAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Planes\Activity\Achieve.cs" />
+    <Compile Include="Planes\Activity\RecordManager.cs" />
+    <Compile Include="Planes\Bag\FashionBag.cs" />
+    <Compile Include="Planes\Bag\GemBag.cs" />
+    <Compile Include="Planes\Build\BuildBase.cs" />
+    <Compile Include="Planes\Build\BuildOutPut.cs" />
+    <Compile Include="Planes\Build\MartialBuild.cs" />
+    <Compile Include="Planes\Component\AActorBase.cs" />
+    <Compile Include="Planes\Component\AComponent.cs" />
+    <Compile Include="Planes\Component\APlacement.cs" />
+    <Compile Include="Com\RoleManager\Role_Guild.cs" />
+    <Compile Include="Com\RoleManager\Role_Chat.cs" />
+    <Compile Include="Com\RoleManager\Role_Social.cs" />
+    <Compile Include="Com\RoleManager\Role_Item.cs" />
+    <Compile Include="Planes\Component\IShape.cs" />
+    <Compile Include="Com\GuildManager.cs" />
+    <Compile Include="Com\LangManager.cs" />
+    <Compile Include="Com\RoleManager\UserRoleManager.cs" />
+    <Compile Include="Com\SocialManager.cs" />
+    <Compile Include="Data\Account.cs" />
+    <Compile Include="Data\Com\GuildData.cs" />
+    <Compile Include="Data\Com\Message.cs" />
+    <Compile Include="Data\Com\RoleCom.cs" />
+    <Compile Include="Data\GiftItem\ContinueCheckDayGifts.cs" />
+    <Compile Include="Data\GiftItem\OnLineGift.cs" />
+    <Compile Include="Data\GiftItem\VipEveryDayGifts.cs" />
+    <Compile Include="Data\GiftItem\VipUpLevel.cs" />
+    <Compile Include="Data\Item\GiftData.cs" />
+    <Compile Include="Planes\CountryWar\CountryWar.cs" />
+    <Compile Include="Planes\CountryWar\PlanesCountryWarProt.cs" />
+    <Compile Include="Planes\Map\Instance\ChallengeInstance.cs" />
+    <Compile Include="Planes\Map\Instance\MasterInstance.cs" />
+    <Compile Include="Planes\Map\Instance\ArenaInstance.cs" />
+    <Compile Include="Planes\Map\MapInstanceManager.cs" />
+    <Compile Include="Planes\Object\Achieve\AchieveObjective.cs" />
+    <Compile Include="Planes\Object\Achieve\AchieveObjective\AchieveKilled.cs" />
+    <Compile Include="Planes\Object\Achieve\AchieveObjective\AchieveUpLevel.cs" />
+    <Compile Include="Planes\Object\Achieve\AchieveObjective\BaseAchieveObjective.cs" />
+    <Compile Include="Planes\Object\Achieve\AchieveObjective\AchieveSelectCamp.cs" />
+    <Compile Include="Planes\Object\EventDispatcher.cs" />
+    <Compile Include="Planes\Object\EventType.cs" />
+    <Compile Include="Planes\Object\GameLogic.cs" />
+    <Compile Include="Planes\Object\GameLogicManager.cs" />
+    <Compile Include="Planes\Object\GameLogicType.cs" />
+    <Compile Include="Planes\Object\Instance\InstanceObjective.cs" />
+    <Compile Include="Planes\Object\Instance\InstanceObjective\BaseInstanceObjective.cs" />
+    <Compile Include="Planes\Object\Instance\InstanceObjective\InstanceCollectItem.cs" />
+    <Compile Include="Planes\Object\Instance\InstanceObjective\InstanceKillMonster.cs" />
+    <Compile Include="Planes\Object\Instance\InstanceObjective\InstanceProtectTarget.cs" />
+    <Compile Include="Planes\Object\NPC\NPCLogic.cs" />
+    <Compile Include="Planes\Object\NPC\NPCLogic\BaseNPCLogic.cs" />
+    <Compile Include="Planes\Object\NPC\NPCLogic\CommonNPC.cs" />
+    <Compile Include="Planes\Object\NPC\NPCLogic\SilverCart.cs" />
+    <Compile Include="Planes\Object\NPC\NPCLogic\ImageNPC.cs" />
+    <Compile Include="Planes\Object\NPC\NPCType.cs" />
+    <Compile Include="Planes\Object\Player\PlayerLogic.cs" />
+    <Compile Include="Planes\Object\Player\PlayerLogic\BasePlayerLogic.cs" />
+    <Compile Include="Planes\Object\Player\PlayerLogic\RobotPlayer.cs" />
+    <Compile Include="Planes\Object\Player\PlayerType.cs" />
+    <Compile Include="Planes\Object\Task\TaskObjective.cs" />
+    <Compile Include="Planes\Object\Task\TaskObjective\BaseTaskObjective.cs" />
+    <Compile Include="Planes\Object\Task\TaskObjective\TaskKillMonster.cs" />
+    <Compile Include="Planes\Object\Task\TaskObjective\TaskSelectCamp.cs" />
+    <Compile Include="Planes\Role\PlayerImage.cs" />
+    <Compile Include="Planes\Role\Player\Player_AI.cs" />
+    <Compile Include="Planes\Role\Player\Player_Country.cs" />
+    <Compile Include="Planes\Role\Player\Player_Fight.cs" />
+    <Compile Include="Planes\Role\Player\Player_Martial.cs" />
+    <Compile Include="Planes\Role\Player\Player_Skill.cs" />
+    <Compile Include="Planes\Role\Player\Player_Value.cs" />
+    <Compile Include="Planes\Role\RoleActor_Value.cs" />
+    <Compile Include="Planes\Role\RoleActor_Fight.cs" />
+    <Compile Include="Planes\Role\RoleActor_Map.cs" />
+    <Compile Include="Planes\Role\Trigger\WayPoint.cs" />
+    <Compile Include="Planes\Skill\ASkillObject.cs" />
+    <Compile Include="Planes\Skill\Buff.cs" />
+    <Compile Include="Planes\Skill\BuffData.cs" />
+    <Compile Include="Planes\Skill\BuffManager.cs" />
+    <Compile Include="Planes\Skill\Impact.cs" />
+    <Compile Include="Planes\Skill\PlayerStatus.cs" />
+    <Compile Include="Planes\Skill\SkillActive.cs" />
+    <Compile Include="Planes\Skill\SkillChecker.cs" />
+    <Compile Include="Planes\Skill\SkillChecker\BaseSkillChecker.cs" />
+    <Compile Include="Planes\Skill\SkillChecker\CommonChecker.cs" />
+    <Compile Include="Planes\Skill\SkillChecker\GainChecker.cs" />
+    <Compile Include="Planes\Skill\SkillConsumer.cs" />
+    <Compile Include="Planes\Skill\SkillConsumer\BaseSkillConsumer.cs" />
+    <Compile Include="Planes\Skill\SkillConsumer\MPValue.cs" />
+    <Compile Include="Planes\Skill\SkillEnum.cs" />
+    <Compile Include="Planes\Skill\SkillImpact\AttackImpact.cs" />
+    <Compile Include="Planes\Skill\SkillImpact\EffectImpact.cs" />
+    <Compile Include="Planes\Skill\SkillImpact\HealImpact.cs" />
+    <Compile Include="Planes\Skill\SkillLogic.cs" />
+    <Compile Include="Planes\Skill\SkillLogic\Attack.cs" />
+    <Compile Include="Planes\Skill\SkillLogic\BaseSkillLogic.cs" />
+    <Compile Include="Planes\Skill\SkillLogic\Effect.cs" />
+    <Compile Include="Planes\Skill\SkillLogic\Heal.cs" />
+    <Compile Include="Planes\Skill\SkillManager.cs" />
+    <Compile Include="Planes\Skill\SkillPassive.cs" />
+    <Compile Include="Planes\Skill\SkillSelector.cs" />
+    <Compile Include="Planes\Skill\SkillSelector\BaseSkillSelector.cs" />
+    <Compile Include="Planes\Skill\SkillSelector\CircleAreaTarget.cs" />
+    <Compile Include="Planes\Skill\SkillSelector\FanshapedTarget.cs" />
+    <Compile Include="Planes\Skill\SkillSelector\RectangleTarget.cs" />
+    <Compile Include="Planes\Skill\SkillSelector\SingleTarget.cs" />
+    <Compile Include="ServerDefine.cs" />
+    <Compile Include="StaticTableWrap\MapInfoData.cs" />
+    <Compile Include="Data\Social\Guild.cs" />
+    <Compile Include="Data\ICopyAble.cs" />
+    <Compile Include="Data\Item\ItemData.cs" />
+    <Compile Include="Data\MailData.cs" />
+    <Compile Include="Data\MapObject\NPC.cs" />
+    <Compile Include="Data\MapObject\Trigger\TriggerActorInit.cs" />
+    <Compile Include="Data\MapObject\Trigger\TriggerData.cs" />
+    <Compile Include="Data\MapObject\Trigger\TriggerProcessData.cs" />
+    <Compile Include="Data\PlanesData.cs" />
+    <Compile Include="Data\PlanesMgr.cs" />
+    <Compile Include="Data\Player\Player.cs" />
+    <Compile Include="Data\Player\PlayerOfflineData.cs" />
+    <Compile Include="Data\Player\PlayerData.cs" />
+    <Compile Include="Data\Player\PlayerManager.cs" />
+    <Compile Include="Data\Social\SocialData.cs" />
+    <Compile Include="Data\Task\TaskData.cs" />
+    <Compile Include="DB\LoaderThread.cs" />
+    <Compile Include="DB\SaverThread.cs" />
+    <Compile Include="Gate\ClientLinker.cs" />
+    <Compile Include="IComServer.cs" />
+    <Compile Include="IDataServer.cs" />
+    <Compile Include="IGateServer.cs" />
+    <Compile Include="ILogServer.cs" />
+    <Compile Include="IPlanesServer.cs" />
+    <Compile Include="IRegisterServer.cs" />
+    <Compile Include="IServer.cs" />
+    <Compile Include="Data\AllMapManager.cs" />
+    <Compile Include="Planes\Activity\CheckDay.cs" />
+    <Compile Include="Planes\Bag\BagBase.cs" />
+    <Compile Include="Planes\Bag\EquipBag.cs" />
+    <Compile Include="Planes\Bag\Item.cs" />
+    <Compile Include="Planes\GameMaster.cs" />
+    <Compile Include="Planes\Map\MapCellInstance.cs" />
+    <Compile Include="Planes\Map\MapPathManager.cs" />
+    <Compile Include="Planes\Role\GatherItem.cs" />
+    <Compile Include="Planes\Role\Player\Player_Mail.cs" />
+    <Compile Include="Planes\Role\Player\Player_Social.cs" />
+    <Compile Include="Planes\Role\Player\Player_Guild.cs" />
+    <Compile Include="Planes\Role\Player\Player_Item.cs" />
+    <Compile Include="Planes\Map\InstanceMap.cs" />
+    <Compile Include="Planes\PlanesManager.cs" />
+    <Compile Include="Planes\PlanesServerDataManager.cs" />
+    <Compile Include="Planes\Role\Player\Player_Map.cs" />
+    <Compile Include="Planes\Role\Player\Player_Chat.cs" />
+    <Compile Include="Planes\Role\Player\Player_Activity.cs" />
+    <Compile Include="Planes\Role\Player\Player_Data.cs" />
+    <Compile Include="Planes\Role\Player\Player_Team.cs" />
+    <Compile Include="Planes\Role\Player\Player_Task.cs" />
+    <Compile Include="Planes\Role\RoleActor.cs" />
+    <Compile Include="Planes\Role\RolePlacement.cs" />
+    <Compile Include="Planes\Role\Trigger\TriggerInstance.cs" />
+    <Compile Include="Planes\Role\Trigger\TriggerScript.cs" />
+    <Compile Include="Planes\LogicProcessor.cs" />
+    <Compile Include="Planes\Map\MapInstance.cs" />
+    <Compile Include="Planes\Role\NPCInstance.cs" />
+    <Compile Include="Planes\PlanesInstance.cs" />
+    <Compile Include="Planes\Role\Player\PlayerInstance.cs" />
+    <Compile Include="Planes\Task\Task.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPCRoot.cs" />
+    <Compile Include="Autocode\ServerCallee.cs" />
+    <Compile Include="Autocode\ServerCaller.cs" />
+    <Compile Include="ServerConfig.cs" />
+    <Compile Include="GameSet.cs" />
+    <Compile Include="TableLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSCommon\CSCommon.csproj">
+      <Project>{38b5005c-6be6-4ed9-996d-0279350fd906}</Project>
+      <Name>CSCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerFrame\ServerFrame.csproj">
+      <Project>{1dab8a62-febd-40ca-8200-95cbcde9f029}</Project>
+      <Name>ServerFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Planes\Build\PlantBuild.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Planes\Build\TrainBuild.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Planes\Build\SmeltBuild.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

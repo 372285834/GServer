@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\GateServer.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\GateServer.exe
+E:\wuxia\program\trunk\Server\Release\Bin\GateServer.pdb
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.GateServerFrm.resources
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.exe
+E:\wuxia\program\trunk\Server\Code\Server\GateServer\obj\Debug\GateServer.pdb

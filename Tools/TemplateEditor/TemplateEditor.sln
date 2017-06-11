@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEditor", "TemplateEditor\TemplateEditor.csproj", "{0046C1C8-CFB8-4547-A802-1CD55A68A457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\SceneEditor\Common\Common.csproj", "{47209AD4-C3F1-4798-B485-609FBBE963C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0046C1C8-CFB8-4547-A802-1CD55A68A457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0046C1C8-CFB8-4547-A802-1CD55A68A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0046C1C8-CFB8-4547-A802-1CD55A68A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0046C1C8-CFB8-4547-A802-1CD55A68A457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47209AD4-C3F1-4798-B485-609FBBE963C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47209AD4-C3F1-4798-B485-609FBBE963C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47209AD4-C3F1-4798-B485-609FBBE963C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47209AD4-C3F1-4798-B485-609FBBE963C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+E:\wuxia\program\trunk\Server\Release\GMTool.exe.config
+E:\wuxia\program\trunk\Server\Release\GMTool.exe
+E:\wuxia\program\trunk\Server\Release\GMTool.pdb
+E:\wuxia\program\trunk\Server\Release\Bin\GMTool.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\GMTool.exe
+E:\wuxia\program\trunk\Server\Release\Bin\GMTool.pdb
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\Tool.Form1.resources
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.exe
+E:\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.pdb
+E:\myLib\u3dGame\wuxia\program\trunk\Server\Release\Bin\GMTool.exe.config
+E:\myLib\u3dGame\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.exe
+E:\myLib\u3dGame\wuxia\program\trunk\Server\Code\Tools\GMTool\obj\Debug\GMTool.pdb

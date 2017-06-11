@@ -1,0 +1,5 @@
+E:\wuxia\program\trunk\Server\Release\Bin\ServerCommon.dll
+E:\wuxia\program\trunk\Server\Release\Bin\ServerCommon.pdb
+E:\wuxia\program\trunk\Server\Code\Common\ServerCommon\obj\Debug\ServerCommon.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Common\ServerCommon\obj\Debug\ServerCommon.dll
+E:\wuxia\program\trunk\Server\Code\Common\ServerCommon\obj\Debug\ServerCommon.pdb

@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\RegisterServer.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\RegisterServer.exe
+E:\wuxia\program\trunk\Server\Release\Bin\RegisterServer.pdb
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.RegisterServerFrm.resources
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.exe
+E:\wuxia\program\trunk\Server\Code\Server\RegisterServer\obj\Debug\RegisterServer.pdb

@@ -1,0 +1,68 @@
+﻿生成启动时间为 2015/3/27 13:52:36。
+     1>项目“E:\wuxia\program\trunk\Server\Code\Dll\PathFinder\PathFinder.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\Common /I.\Data /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PATHFINDER_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\PathFinder_d.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\Common /I.\Data /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PATHFINDER_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Common\Assertx.cpp Common\CommonAPI.cpp Common\Config.cpp Common\DCHAR.cpp Common\Ini.cpp Common\Mutex.cpp Common\Utils.cpp Data\GameSceneDataManager.cpp Data\GameTemplate.cpp Data\GameTemplateManager.cpp Data\LoadSceneTemplate.cpp Data\ParseWalkData.cpp MicroPather.cc FindPather.cc PathFinder.cpp Scene.cpp SceneManager.cpp
+         SceneManager.cpp
+         Scene.cpp
+         PathFinder.cpp
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(42): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(43): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(77): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(78): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(79): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(80): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+         FindPather.cc
+         MicroPather.cc
+         ParseWalkData.cpp
+         LoadSceneTemplate.cpp
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\data\loadscenetemplate.cpp(39): warning C4244: “=”: 从“double”转换到“f_32”，可能丢失数据
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\data\loadscenetemplate.cpp(40): warning C4244: “=”: 从“double”转换到“f_32”，可能丢失数据
+         GameTemplateManager.cpp
+         GameTemplate.cpp
+         GameSceneDataManager.cpp
+         Utils.cpp
+         Mutex.cpp
+         Ini.cpp
+         DCHAR.cpp
+         Config.cpp
+         CommonAPI.cpp
+         Assertx.cpp
+         正在生成代码...
+     1>e:\wuxia\program\trunk\server\code\dll\pathfinder\pathfinder.cpp(65): warning C4715: “GetCollisionLayerData”: 不是所有的控件路径都返回值
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\Common /I.\Data /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PATHFINDER_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Release\Bin\PathFinder_d.dll" /INCREMENTAL /NOLOGO JsonLib_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\Release\Bin\PathFinder_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Release\Bin\PathFinder_d.lib" /MACHINE:X86 /DLL Debug\Assertx.obj
+         Debug\CommonAPI.obj
+         Debug\Config.obj
+         Debug\DCHAR.obj
+         Debug\Ini.obj
+         Debug\Mutex.obj
+         Debug\Utils.obj
+         Debug\GameSceneDataManager.obj
+         Debug\GameTemplate.obj
+         Debug\GameTemplateManager.obj
+         Debug\LoadSceneTemplate.obj
+         Debug\ParseWalkData.obj
+         Debug\dllmain.obj
+         Debug\MicroPather.obj
+         Debug\FindPather.obj
+         Debug\PathFinder.obj
+         Debug\Scene.obj
+         Debug\SceneManager.obj
+         Debug\stdafx.obj
+            正在创建库 ..\..\..\Release\Bin\PathFinder_d.lib 和对象 ..\..\..\Release\Bin\PathFinder_d.exp
+     1>JsonLib_d.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“JsonLib_d.lib(json_reader.obj)”或在“E:\wuxia\program\trunk\Server\Release\Bin\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>JsonLib_d.lib(json_value.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“JsonLib_d.lib(json_value.obj)”或在“E:\wuxia\program\trunk\Server\Release\Bin\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>JsonLib_d.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“JsonLib_d.lib(json_writer.obj)”或在“E:\wuxia\program\trunk\Server\Release\Bin\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         PathFinder.vcxproj -> E:\wuxia\program\trunk\Server\Code\Dll\PathFinder\..\..\..\Release\Bin\PathFinder_d.dll
+     1>已完成生成项目“E:\wuxia\program\trunk\Server\Code\Dll\PathFinder\PathFinder.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.43

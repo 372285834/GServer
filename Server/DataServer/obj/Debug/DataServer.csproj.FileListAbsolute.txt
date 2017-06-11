@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\DataServer.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\DataServer.exe
+E:\wuxia\program\trunk\Server\Release\Bin\DataServer.pdb
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.DataServerFrm.resources
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.exe
+E:\wuxia\program\trunk\Server\Code\Server\DataServer\obj\Debug\DataServer.pdb

@@ -1,0 +1,9 @@
+E:\wuxia\program\trunk\Server\Release\Bin\PlanesServer.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\PlanesServer.exe
+E:\wuxia\program\trunk\Server\Release\Bin\PlanesServer.pdb
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.PlanesServerFrm.resources
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.exe
+E:\wuxia\program\trunk\Server\Code\Server\PlanesServer\obj\Debug\PlanesServer.pdb

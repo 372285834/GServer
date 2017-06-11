@@ -1,0 +1,12 @@
+E:\wuxia\program\trunk\Server\Release\RPCCodeBuilder.exe.config
+E:\wuxia\program\trunk\Server\Release\RPCCodeBuilder.exe
+E:\wuxia\program\trunk\Server\Release\RPCCodeBuilder.pdb
+E:\wuxia\program\trunk\Server\Release\Bin\RPCCodeBuilder.exe.config
+E:\wuxia\program\trunk\Server\Release\Bin\RPCCodeBuilder.exe
+E:\wuxia\program\trunk\Server\Release\Bin\RPCCodeBuilder.pdb
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.Properties.Resources.resources
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.RPCCodeBuilderFrm.resources
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.csproj.GenerateResource.Cache
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.exe
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.pdb
+E:\wuxia\program\trunk\Server\Code\Tools\RPCCodeBuilder\obj\Debug\RPCCodeBuilder.csprojResolveAssemblyReference.cache

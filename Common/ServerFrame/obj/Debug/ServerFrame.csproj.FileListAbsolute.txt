@@ -1,0 +1,5 @@
+E:\wuxia\program\trunk\Server\Release\Bin\Framework.dll
+E:\wuxia\program\trunk\Server\Release\Bin\Framework.pdb
+E:\wuxia\program\trunk\Server\Code\Common\ServerFrame\obj\Debug\ServerFrame.csprojResolveAssemblyReference.cache
+E:\wuxia\program\trunk\Server\Code\Common\ServerFrame\obj\Debug\Framework.dll
+E:\wuxia\program\trunk\Server\Code\Common\ServerFrame\obj\Debug\Framework.pdb

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38B5005C-6BE6-4ED9-996D-0279350FD906}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSCommon</RootNamespace>
+    <AssemblyName>CSCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Release\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CSharpCompliler</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\Bin\</OutputPath>
+    <DefineConstants>TRACE;CSharpCompliler</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.XML" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\02_work\Unity Project\破解源码\锁链战记破解\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonUtil.cs" />
+    <Compile Include="CommonEnum.cs" />
+    <Compile Include="ItemUtil.cs" />
+    <Compile Include="MapInfo.cs" />
+    <Compile Include="ReturnEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCDefine.cs" />
+    <Compile Include="SkillEnum.cs" />
+    <Compile Include="SkillUtil.cs" />
+    <Compile Include="StaticTable\Data\AchieveNameData.cs" />
+    <Compile Include="StaticTable\Data\AchieveTplData.cs" />
+    <Compile Include="StaticTable\Data\AwardData.cs" />
+    <Compile Include="StaticTable\Data\BarrackEfficiencyItemData.cs" />
+    <Compile Include="StaticTable\Data\BarrackLevelData.cs" />
+    <Compile Include="StaticTable\Data\BuffData.cs" />
+    <Compile Include="StaticTable\Data\BuffLevelData.cs" />
+    <Compile Include="StaticTable\Data\CheatsData.cs" />
+    <Compile Include="StaticTable\Data\CityData.cs" />
+    <Compile Include="StaticTable\Data\CopyTplData.cs" />
+    <Compile Include="StaticTable\Data\DailyComData.cs" />
+    <Compile Include="StaticTable\Data\DailyCountryData.cs" />
+    <Compile Include="StaticTable\Data\DailyLakeData.cs" />
+    <Compile Include="StaticTable\Data\DailyYunDartData.cs" />
+    <Compile Include="StaticTable\Data\DayRankData.cs" />
+    <Compile Include="StaticTable\Data\EffResEffTplData.cs" />
+    <Compile Include="StaticTable\Data\ItemCombineData.cs" />
+    <Compile Include="StaticTable\Data\ItemEquipData.cs" />
+    <Compile Include="StaticTable\Data\ItemEquipLevelData.cs" />
+    <Compile Include="StaticTable\Data\ItemEquipRefineData.cs" />
+    <Compile Include="StaticTable\Data\ItemEquipRefineLvData.cs" />
+    <Compile Include="StaticTable\Data\ItemFashionData.cs" />
+    <Compile Include="StaticTable\Data\ItemGemData.cs" />
+    <Compile Include="StaticTable\Data\ItemGiftData.cs" />
+    <Compile Include="StaticTable\Data\ItemOreData.cs" />
+    <Compile Include="StaticTable\Data\ItemPackageData.cs" />
+    <Compile Include="StaticTable\Data\ItemTplData.cs" />
+    <Compile Include="StaticTable\Data\ItemUseData.cs" />
+    <Compile Include="StaticTable\Data\LoadContextData.cs" />
+    <Compile Include="StaticTable\Data\LoadingTipsData.cs" />
+    <Compile Include="StaticTable\Data\MailInfoData.cs" />
+    <Compile Include="StaticTable\Data\MapsData.cs" />
+    <Compile Include="StaticTable\Data\MapWayData.cs" />
+    <Compile Include="StaticTable\Data\MartialClubData.cs" />
+    <Compile Include="StaticTable\Data\MartialItemData.cs" />
+    <Compile Include="StaticTable\Data\MartialPlantData.cs" />
+    <Compile Include="StaticTable\Data\MartialSmeltData.cs" />
+    <Compile Include="StaticTable\Data\MartialTrainData.cs" />
+    <Compile Include="StaticTable\Data\MaskWordData.cs" />
+    <Compile Include="StaticTable\Data\MessageData.cs" />
+    <Compile Include="StaticTable\Data\NPCTalkData.cs" />
+    <Compile Include="StaticTable\Data\NPCTplData.cs" />
+    <Compile Include="StaticTable\Data\NPC_AttriData.cs" />
+    <Compile Include="StaticTable\Data\PlayerLevelData.cs" />
+    <Compile Include="StaticTable\Data\PlayerTplData.cs" />
+    <Compile Include="StaticTable\Data\PointSoldierData.cs" />
+    <Compile Include="StaticTable\Data\SkillActiveData.cs" />
+    <Compile Include="StaticTable\Data\SkillLevelData.cs" />
+    <Compile Include="StaticTable\Data\SkillPassiveData.cs" />
+    <Compile Include="StaticTable\Data\SkillPassiveLevelData.cs" />
+    <Compile Include="StaticTable\Data\StrongPointData.cs" />
+    <Compile Include="StaticTable\Data\TaskTalkData.cs" />
+    <Compile Include="StaticTable\Data\TaskTplData.cs" />
+    <Compile Include="StaticTable\Interface\IBuildBase.cs" />
+    <Compile Include="StaticTable\Interface\IItemBase.cs" />
+    <Compile Include="StaticTable\Interface\ISkillTable.cs" />
+    <Compile Include="StaticTable\Interface\IAchieveBase.cs" />
+    <Compile Include="StaticTable\StaticDataConstant.cs" />
+    <Compile Include="StaticTable\StaticTableManager.cs" />
+    <Compile Include="StaticTable\Table\AchieveNameTable.cs" />
+    <Compile Include="StaticTable\Table\AchieveTplTable.cs" />
+    <Compile Include="StaticTable\Table\AwardTable.cs" />
+    <Compile Include="StaticTable\Table\BarrackEfficiencyItemTable.cs" />
+    <Compile Include="StaticTable\Table\BarrackLevelTable.cs" />
+    <Compile Include="StaticTable\Table\BuffLevelTable.cs" />
+    <Compile Include="StaticTable\Table\BuffTable.cs" />
+    <Compile Include="StaticTable\Table\CheatsTable.cs" />
+    <Compile Include="StaticTable\Table\CityTable.cs" />
+    <Compile Include="StaticTable\Table\CopyTplTable.cs" />
+    <Compile Include="StaticTable\Table\DailyComTable.cs" />
+    <Compile Include="StaticTable\Table\DailyCountryTable.cs" />
+    <Compile Include="StaticTable\Table\DailyLakeTable.cs" />
+    <Compile Include="StaticTable\Table\DailyYunDartTable.cs" />
+    <Compile Include="StaticTable\Table\DayRankTable.cs" />
+    <Compile Include="StaticTable\Table\EffResEffTplTable.cs" />
+    <Compile Include="StaticTable\Table\ItemCombineTable.cs" />
+    <Compile Include="StaticTable\Table\ItemEquipLevelTable.cs" />
+    <Compile Include="StaticTable\Table\ItemEquipRefineLvTable.cs" />
+    <Compile Include="StaticTable\Table\ItemEquipRefineTable.cs" />
+    <Compile Include="StaticTable\Table\ItemEquipTable.cs" />
+    <Compile Include="StaticTable\Table\ItemFashionTable.cs" />
+    <Compile Include="StaticTable\Table\ItemGemTable.cs" />
+    <Compile Include="StaticTable\Table\ItemGiftTable.cs" />
+    <Compile Include="StaticTable\Table\ItemOreTable.cs" />
+    <Compile Include="StaticTable\Table\ItemPackageTable.cs" />
+    <Compile Include="StaticTable\Table\ItemTplTable.cs" />
+    <Compile Include="StaticTable\Table\ItemUseTable.cs" />
+    <Compile Include="StaticTable\Table\LoadContextTable.cs" />
+    <Compile Include="StaticTable\Table\LoadingTipsTable.cs" />
+    <Compile Include="StaticTable\Table\MailInfoTable.cs" />
+    <Compile Include="StaticTable\Table\MapsTable.cs" />
+    <Compile Include="StaticTable\Table\MapWayTable.cs" />
+    <Compile Include="StaticTable\Table\MartialClubTable.cs" />
+    <Compile Include="StaticTable\Table\MartialItemTable.cs" />
+    <Compile Include="StaticTable\Table\MartialPlantTable.cs" />
+    <Compile Include="StaticTable\Table\MartialSmeltTable.cs" />
+    <Compile Include="StaticTable\Table\MartialTrainTable.cs" />
+    <Compile Include="StaticTable\Table\MaskWordTable.cs" />
+    <Compile Include="StaticTable\Table\MessageTable.cs" />
+    <Compile Include="StaticTable\Table\NPCTalkTable.cs" />
+    <Compile Include="StaticTable\Table\NPCTplTable.cs" />
+    <Compile Include="StaticTable\Table\NPC_AttriTable.cs" />
+    <Compile Include="StaticTable\Table\PlayerLevelTable.cs" />
+    <Compile Include="StaticTable\Table\PlayerTplTable.cs" />
+    <Compile Include="StaticTable\Table\PointSoldierTable.cs" />
+    <Compile Include="StaticTable\Table\SkillActiveTable.cs" />
+    <Compile Include="StaticTable\Table\SkillLevelTable.cs" />
+    <Compile Include="StaticTable\Table\SkillPassiveLevelTable.cs" />
+    <Compile Include="StaticTable\Table\SkillPassiveTable.cs" />
+    <Compile Include="StaticTable\Table\StrongPointTable.cs" />
+    <Compile Include="StaticTable\Table\TaskTalkTable.cs" />
+    <Compile Include="StaticTable\Table\TaskTplTable.cs" />
+    <Compile Include="Templates\CountryCommon.cs" />
+    <Compile Include="Templates\SystemCommon.cs" />
+    <Compile Include="Templates\ItemCommon.cs" />
+    <Compile Include="Templates\BagCommon.cs" />
+    <Compile Include="Templates\ClientIPConfig.cs" />
+    <Compile Include="Templates\DropTemplate.cs" />
+    <Compile Include="Templates\MartialClubCommon.cs" />
+    <Compile Include="Templates\ShopCommon.cs" />
+    <Compile Include="Templates\RoleCommon.cs" />
+    <Compile Include="Templates\SocialCommon.cs" />
+    <Compile Include="Templates\GuildCommon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerFrame\ServerFrame.csproj">
+      <Project>{1dab8a62-febd-40ca-8200-95cbcde9f029}</Project>
+      <Name>ServerFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Server\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>COPY $(ProjectDir)\*.cs $(ProjectDir)..\..\..\..\Client\Assets\Scripts\CSCommon\
+COPY $(ProjectDir)\Templates\*.cs $(ProjectDir)..\..\..\..\Client\Assets\Scripts\CSCommon\Templates\
+
+COPY $(ProjectDir)\StaticTable\Interface\*.cs $(ProjectDir)..\..\..\..\Client\Assets\Scripts\CSCommon\StaticTable\Interface\
+COPY $(ProjectDir)\StaticTable\Table\*.cs $(ProjectDir)..\..\..\..\Client\Assets\Scripts\CSCommon\StaticTable\Table\</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
